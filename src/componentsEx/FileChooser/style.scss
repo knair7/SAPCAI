@@ -1,0 +1,24 @@
+.file-chooser-button {
+  width: 22px;
+  padding: 0px 0.1rem;
+  margin-right: 17px;
+  background: white;
+  vertical-align: 'middle';
+  border-radius: '35px';
+  cursor: pointer;
+}
+
+.file-chooser-button-image {
+  width: 20px;
+  height: auto;
+}
+
+div.file-chooser-container {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.hidden-file-input {
+  display: none;
+}

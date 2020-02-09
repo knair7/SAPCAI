@@ -1,0 +1,47 @@
+.RecastAppChat-FileDrop {
+  position: absolute;
+  top: 0;
+  background: transparent;
+  height: calc(100% + 3.5rem);
+  width: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.solexp-imageLoading + div.user {
+  display: none;
+}
+
+div.solexp-Loader {
+  display: none;
+  border: 4px solid #bababa;
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+  position: absolute;
+  left: 6.25rem;
+  top: calc(50% - 1.25rem);
+  z-index: 1;
+  background: #ffffff;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
